@@ -123,7 +123,6 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintStart_toStartOf="@+id/guideline8"
             app:layout_constraintTop_toTopOf="@+id/guideline6"
-            android:text="T"
             android:textSize="@dimen/_60ssp"
             android:gravity="center"
             />
@@ -137,7 +136,6 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintStart_toStartOf="@+id/guideline8"
             app:layout_constraintTop_toTopOf="@+id/guideline7"
-            android:text="T"
             android:textSize="@dimen/_60ssp"
             android:gravity="center"
             />
@@ -146,43 +144,44 @@
         android:id="@+id/tv_11"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="T"
         android:textSize="@dimen/_60ssp"
         android:gravity="center"
         app:layout_constraintBottom_toTopOf="@+id/guideline6"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline8"
-        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+
+        />
 
     <TextView
         android:id="@+id/tv_12"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:gravity="center"
-        android:text="T"
         android:textSize="@dimen/_60ssp"
         app:layout_constraintBottom_toTopOf="@+id/guideline6"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+
+        />
 
     <TextView
         android:id="@+id/tv_13"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="T"
         android:gravity="center"
         android:textSize="@dimen/_60ssp"
         app:layout_constraintBottom_toTopOf="@+id/guideline6"
         app:layout_constraintEnd_toStartOf="@+id/guideline9"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        />
 
     <TextView
         android:id="@+id/tv_22"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="T"
         android:textSize="@dimen/_60ssp"
         app:layout_constraintBottom_toTopOf="@+id/view"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
@@ -196,12 +195,12 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:gravity="center"
-        android:text="T"
         android:textSize="@dimen/_60ssp"
         app:layout_constraintBottom_toTopOf="@+id/guideline7"
         app:layout_constraintEnd_toStartOf="@+id/guideline9"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toTopOf="@+id/guideline6" />
+        app:layout_constraintTop_toTopOf="@+id/guideline6"
+        />
 
         <TextView
             android:id="@+id/tv_32"
@@ -211,7 +210,6 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline3"
             app:layout_constraintStart_toStartOf="@+id/guideline2"
             app:layout_constraintTop_toTopOf="@+id/guideline7"
-            android:text="T"
             android:textSize="@dimen/_60ssp"
             android:gravity="center"
             />
@@ -224,7 +222,6 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline9"
             app:layout_constraintStart_toStartOf="@+id/guideline3"
             app:layout_constraintTop_toTopOf="@+id/guideline7"
-            android:text="T"
             android:gravity="center"
             android:textSize="@dimen/_60ssp"
             />
